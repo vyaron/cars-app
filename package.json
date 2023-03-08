@@ -4,7 +4,7 @@
   "description": "My first Node server",
   "scripts": {
     "start": "node server.js",
-    "build": "dir",
+    "build": "npm install",
     "dev": "set PORT=3030 & nodemon --ignore \"./data\" server.js",
     "show-files": "dir",
     "check-network": "ping google.com"
