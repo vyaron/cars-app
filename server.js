@@ -13,9 +13,9 @@ app.use(express.json())
 app.use(express.static('public'))
 
 
-app.get('/', (req, res) => {
-    res.send('Hello World!!')
-})
+// app.get('/', (req, res) => {
+//     res.send('Hello World!!')
+// })
 
 app.get('/puki', (req, res) => {
     var visitCount = req.cookies.visitCount || 0
